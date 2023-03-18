@@ -1,0 +1,107 @@
+/*geral*/
+h1{
+    text-align: center;
+    margin:10px;
+}
+
+
+/*
+Estilização main
+*/
+
+.msg{
+    background-color: #d4edda;
+    color:#155724;
+    border: 1px solid black;
+    width: 50%;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.main-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+/*
+Estilização tela inicial
+*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #C6B9CD;
+}
+
+.inicio{
+    width: 400px;
+}
+
+footer{
+    text-align: center;
+    background-color: #212529;
+    color: #fff;
+}
+/*
+Estilização sobre
+*/
+
+.sobre{
+    margin-top:20px;
+    width: 400px;
+}
+
+
+/*
+Estilização servicos
+*/
+
+
+.servicos{
+    margin-top:20px;
+    width: 400px;
+}
+
+
+
+/*
+Estilização cadastrar clientes
+*/
+.cadastro-clientes{
+    width: 600px;
+    margin: 40px auto;
+}
+
+.cadastro-clientes h1{
+    margin-bottom: 40px;;
+}
+
+.cad-cliente{
+    text-align: right;
+}
+
+
+
+/*
+Estilização cadastrar os
+*/
+
+.cadastro-os{
+    width: 600px;
+    margin: 40px auto;
+}
+
+.cadastro-os h1{
+    margin-bottom: 40px;;
+}
+
+.cad-os{
+    text-align: right;
+}
